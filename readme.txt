@@ -1,2 +1,0 @@
-# Function.
-- Run by VBA.
