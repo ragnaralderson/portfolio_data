@@ -13,18 +13,18 @@
 
 ## Projects
 1. lotte_data_allocation
-- Task: Internal.
-- Use VBA to automatically forming report from raw data.
-- Summarize: projects of team Products, allocation, man-month, etc.
-- Output: Excel file with aggregated/pivoted data.
+    - Task: Internal.
+    - Use VBA to automatically forming report from raw data.
+    - Summarize: projects of team Products, allocation, man-month, etc.
+    - Output: Excel file with aggregated/pivoted data.
 
 2. lotte_data_cdp
-- Task: Internal.
-- CDP Foundation on current data from Lotte Mart/ Lotteria.
+    - Task: Internal.
+    - CDP Foundation on current data from Lotte Mart/ Lotteria.
 
 3. mkt_customers_demographic
-- Task: client side.
-- Complex flow from OMS data & other sources to form Customers Demographic and Behavior.
-- Output: Tableau on Tableau Cloud. (Auto refreshed daily)
-- Example:
-![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/mkt_customers_demographic/CATEGORIES.png)
+    - Task: client side.
+    - Complex flow from OMS data & other sources to form Customers Demographic and Behavior.
+    - Output: Tableau on Tableau Cloud. (Auto refreshed daily)
+    - Example:
+    ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/mkt_customers_demographic/CUSTOMERS.png)
