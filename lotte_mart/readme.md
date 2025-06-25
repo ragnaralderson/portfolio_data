@@ -27,4 +27,4 @@
 - Complex flow from OMS data & other sources to form Customers Demographic and Behavior.
 - Output: Tableau on Tableau Cloud. (Auto refreshed daily)
 - Example:
-![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/mkt_customers_demographic/CUSTOMERS (ALL TIME).png?raw=true)
+![alt text]("https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/mkt_customers_demographic/CUSTOMERS (ALL TIME).png")
