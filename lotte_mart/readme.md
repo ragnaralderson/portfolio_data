@@ -62,6 +62,7 @@
 7. sales_prediction
     - Task: client side.
     - Based on historical data, since 2017, to predict future orders demand.
+    - Purpose: Resource (Employee: Picker, Packer, Drivers) Allocation.
     - Content:
         + Apply models: stat, Machine Learning, Deep Learning.
         + Three models would be good-enough (low MAPE for months) to apply to Mart business models.
