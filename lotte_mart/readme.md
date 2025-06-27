@@ -66,7 +66,7 @@
         + Apply models: stat, Machine Learning, Deep Learning.
         + Three models would be good-enough (low MAPE for months) to apply to Mart business models.
         + This is example of MAPE from prediction results from 2024-04 to 2025-05: 
-        ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/mkt_customers_demographic/CUSTOMERS.png)
+        ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/sales_prediction/mape_from_techniques.png)
 
 8. Many others:
     - Input for AWS Personalize.
