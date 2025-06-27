@@ -45,7 +45,7 @@
 
 5. ops_employee_productivity
     - Task: client side.
-    - Complese flow from DMS (Operation Service) to form Employee Productivity Reports.
+    - Complex flow from DMS (Operation Service) to form Employee Productivity Reports.
     - Content:
         + Operation Performance (store-level) on pick/pack/delivery.
         + Details on each employee.
@@ -53,13 +53,22 @@
 
 6. ops_late_delivery
     - Task: client side.
-    - Complese flow from DMS (Operation Service) to form Late Delivery Reports.
+    - Complex flow from DMS (Operation Service) to form Late Delivery Reports.
     - Content:
         + Stats on last 1 year data on Late Delivery.
         + Late Delivery Rate of each store.
         + Details on each MKT segments.
 
-7. Many others:
+7. sales_prediction
+    - Task: client side.
+    - Based on historical data, since 2017, to predict future orders demand.
+    - Content:
+        + Apply models: stat, Machine Learning, Deep Learning.
+        + Three models would be good-enough (low MAPE for months) to apply to Mart business models.
+        + This is example of MAPE from prediction results from 2024-04 to 2025-05: 
+        ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/mkt_customers_demographic/CUSTOMERS.png)
+
+8. Many others:
     - Input for AWS Personalize.
     - Stats on syncing across systems.
     - Sending reports to MS Teams.
