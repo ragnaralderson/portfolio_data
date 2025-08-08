@@ -69,7 +69,14 @@
         + This is example of MAPE from prediction results from 2024-04 to 2025-05: 
         ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/sales_prediction/mape_from_techniques.png)
 
-8. Many others:
+8. Basket Analysis.
+    - Task: client side.
+    - Analyze with category should go with another.
+    - For sale boosting by better zones placement on the web.
+    - Example on "triggered to buy" categories for "Hot & Cold Tea, Coffee":
+    ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/basket_analysis/Lift_Tea_n_Coffee.png)
+
+9. Many others:
     - Input for AWS Personalize.
     - Stats on syncing across systems.
     - Sending reports to MS Teams.
