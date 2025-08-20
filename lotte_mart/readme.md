@@ -1,14 +1,22 @@
 # Client: Lotte Mart
 ## Data Flow
-- Data flow in general: https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data%20Flow%20(in%20general).drawio
+- Data flow in general: 
+https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data%20Flow%20(in%20general).drawio
     + Download the file.
     + Open the browser.
     + Get to: draw.io (You will get redirected)
     + Open this file with draw.io page.
+    + Incase you can't open it:
+    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/images/Data_Flow_general.png)
 
 - Data flow example for one project: MKT-Customers.
     + Link: https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data Flow (project_MKT_Customers).drawio
     + Do the same steps as the previous one.
+    + Incase you can't open it:
+    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/images/Data_Flow_MKT_Part_1.png)
+    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/images/Data_Flow_MKT_Part_2.png)
+    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/images/Data_Flow_MKT_Part_3.png)
+
 
 
 ## Projects
