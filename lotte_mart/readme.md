@@ -1,5 +1,5 @@
 # Client: Lotte Mart
-## Data Flow
+## Data Flow (Pipelines and Reports Datasources)
 - Data flow in general: 
 https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data%20Flow%20(in%20general).drawio
     + Download the file.
@@ -27,8 +27,8 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data%20Flo
     - Output: Excel file with aggregated/pivoted data.
 
 2. lotte_data_cdp
-    - Task: Internal.
-    - CDP Foundation on current data from Lotte Mart/ Lotteria.
+    - Task: client side.
+    - Use AWS Glue (with Pyspark) + AWS Worflow to orchestrate ETL Pipelines for CDP Foundation.
 
 3. mkt_customers_demographic
     - Task: client side.
@@ -70,11 +70,13 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data%20Flo
 7. sales_prediction
     - Task: client side.
     - Based on historical data, since 2017, to predict future orders demand.
-    - Purpose: Resource (Employee: Picker, Packer, Drivers) Allocation.
+    - Purpose: Resources (Employee: Picker, Packer, Drivers) Allocation.
     - Content:
-        + Apply models: stat, Machine Learning, Deep Learning.
-        + Three models would be good-enough (low MAPE for months) to apply to Mart business models.
-        + This is example of MAPE from prediction results from 2024-04 to 2025-05: 
+        + Apply models: Statistics, Machine Learning, Deep Learning.
+        + After using data to train with multiple models.
+        + Based on MAE, RMSE and MAPE, Model {Private} (Stats) is good enough for Mart business models.
+        + MAPE for each month is under 10%. But in the future, models with external additions might get better result.
+        + This is example of MAPE from prediction results from 2024-04 to 2025-08: 
         ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/sales_prediction/mape_from_techniques.png)
 
 8. Basket Analysis.
