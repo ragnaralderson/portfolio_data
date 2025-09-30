@@ -1,15 +1,15 @@
 # Airflow (Workflow Orchestration)
 ## Steps:
-1. Get monthly data.
+### Get monthly data.
 - On the 1st day of each month, I will get data from the last month.
 - Export into datapool. (All-time data is here)
 
-2. Retrain with specified model.
+### Retrain with specified model.
 - I did exploration to choose the most suitable models. (MAE, RMSE, MAPE)
 - Then the best model will be chosen.
 - All data in datapool will be trained at each RUN.
 
-3. Write Forecasting result.
+### Write Forecasting result.
 - After make forecastination from model training, we will get the result.
 - Data will be written into AWS S3 for later use.
 
