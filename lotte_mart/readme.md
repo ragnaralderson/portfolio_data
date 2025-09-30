@@ -84,7 +84,7 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/Data%20Flo
     - Analyze with category should go with another.
     - For sale boosting by better zones placement on the web.
     - Example on "triggered to buy" categories for "Hot & Cold Tea, Coffee":
-    ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/basket_analysis/Lift_Tea_n_Coffee.png)
+    [comment]: #![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/basket_analysis/Lift_Tea_n_Coffee.png)
 
 9. Many others:
     - Input for AWS Personalize.
