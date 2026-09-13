@@ -25,7 +25,7 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastruct
     ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/images/data_digest.png)
 
 
-3. Data Orchestration.
+3. Data Pipelines.
     - We use Dagster (old version & already setup by previous Data Engineers) to orchestrate data flow.
 
     - Scraping.
@@ -35,6 +35,9 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastruct
     - Aggregation.
         + Data Analysts will need to aggregate raw data to form datamarts. I will setup these scripts and utils for them to actively work on their own.
         + Example: Materialized Views are prefered by DAs in my team. I left utils with examples for them. Then, they just need to work on that by themself.
+
+    - Query Optimization.
+        + Sometimes, queries are quite bad in performance. I will help DAs with this.
 
 
 4. Reporting.
