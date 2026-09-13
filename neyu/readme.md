@@ -28,13 +28,13 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastruct
 3. Data Orchestration.
     - We use Dagster (old version & already setup by previous Data Engineers) to orchestrate data flow.
 
-3.1. Scraping.
-    - Beside Operation data from 7 countries above. 
-    - I also get data from: Google Sheet, SharePoint, 3rd-party Portals to unify into Data Warehouse.
+    - Scraping.
+        + Beside Operation data from 7 countries above. 
+        + I also get data from: Google Sheet, SharePoint, 3rd-party Portals to unify into Data Warehouse.
 
-3.2. Aggregation.
-    - Data Analysts will need to aggregate raw data to form datamarts. I will setup these scripts and utils for them to actively work on their own.
-    - Example: Materialized Views are prefered by DAs in my team. I left utils with examples for them. Then, they just need to work on that by themself.
+    - Aggregation.
+        + Data Analysts will need to aggregate raw data to form datamarts. I will setup these scripts and utils for them to actively work on their own.
+        + Example: Materialized Views are prefered by DAs in my team. I left utils with examples for them. Then, they just need to work on that by themself.
 
 
 4. Reporting.
