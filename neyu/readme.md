@@ -11,19 +11,19 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastruct
 
 ## Responsibility
 - First of all, about infrastructure, You can view this following diagram:
-    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastructure_20260910.drawio)
+    ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastructure_20260910.drawio)
 
 
 1. Topics for Kafka Connectors.
 - We have many seperate Database for each countries (currently: 7). I will create topics for Kafka Connectors to capture CDC as records.
 - Dev-ops will setup MirrorMaker2 to centralize these topics for me. From Kafka Standalone to Kafka Central only.
-    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/images/topics_for_kafka_connectors.png)
+    ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/images/topics_for_kafka_connectors.png)
 
 
 2. Consumer CDC data.
 - On Processing Server, I set consumers to digest exact topics as configed in python scripts. From Kafka Central to Data Warehouse.
 - These streamed data will applied into Data Warehouse in real-time.
-    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/images/data_digest.png)
+    ![alt text](https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/images/data_digest.png)
 
 
 3. Data Orchestration.
