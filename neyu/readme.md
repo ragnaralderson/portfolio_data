@@ -42,11 +42,10 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastruct
 
 
 5. The rest of Data Flow. (Just to be clear)
-- Dev-ops will sync from Data Warehouse into "Report Read Database" only to reduce workload for our Data Warehouse.
+    - Dev-ops will sync from Data Warehouse into "Report Read Database" only to reduce workload for our Data Warehouse.
 
 
 6. Debug and Data Quality Control.
-- Alert Mechanisms will always be applied for parts of my responsibility.
-- Some parts, like Connectors State checking on Debezium servers, these will be setup by Dev-ops. MirrorMaker2 state. etc.
-- Sometimes, I will involve by DAs' requests on Data Quality check.
-
+    - Alert Mechanisms will always be applied for parts of my responsibility.
+    - Some parts, like Connectors State checking on Debezium servers, these will be setup by Dev-ops. MirrorMaker2 state. etc.
+    - Sometimes, I will involve by DAs' requests on Data Quality check.
