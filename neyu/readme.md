@@ -6,8 +6,7 @@ https://github.com/ragnaralderson/portfolio_data/blob/main/neyu/Data_Infrastruct
     + Open the browser.
     + Get to: draw.io (You will get redirected)
     + Open this file with draw.io page.
-    + Incase you can't open it:
-    ![alt text]( https://github.com/ragnaralderson/portfolio_data/blob/main/lotte_mart/images/Data_Flow_general.png)
+    + Incase you can't open it, I just seperate the DrawIO file into pieces as below.
 
 
 ## Responsibility
